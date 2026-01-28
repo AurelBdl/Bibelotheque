@@ -79,8 +79,8 @@ export default defineNuxtConfig({
       useDark: Boolean(process.env.THEME_USE_DARK) || false,
       themes: {
         dark: {
-          primary: process.env.THEME_DARK_PRIMARY || "#eeddb2",
-          accent: process.env.THEME_DARK_ACCENT || "#b7441c",
+          primary: process.env.THEME_DARK_PRIMARY || "#b7441c",
+          accent: process.env.THEME_DARK_ACCENT || "#eeddb2",
           secondary: process.env.THEME_DARK_SECONDARY || "#893315",
           success: process.env.THEME_DARK_SUCCESS || "#43A047",
           info: process.env.THEME_DARK_INFO || "#1976d2",
@@ -89,8 +89,8 @@ export default defineNuxtConfig({
           background: "#1E1E1E",
         },
         light: {
-          primary: process.env.THEME_LIGHT_PRIMARY || "#eeddb2",
-          accent: process.env.THEME_LIGHT_ACCENT || "#b7441c",
+          primary: process.env.THEME_LIGHT_PRIMARY || "#b7441c",
+          accent: process.env.THEME_LIGHT_ACCENT || "#eeddb2",
           secondary: process.env.THEME_LIGHT_SECONDARY || "#893315",
           success: process.env.THEME_LIGHT_SUCCESS || "#43A047",
           info: process.env.THEME_LIGHT_INFO || "#1976d2",
@@ -236,7 +236,7 @@ export default defineNuxtConfig({
       scope: "/",
       display: "standalone",
       background_color: "#FFFFFF",
-      theme_color: process.env.THEME_LIGHT_PRIMARY || "#E58325",
+      theme_color: process.env.THEME_LIGHT_PRIMARY || "#b7441c",
       description: "La Bibelothèque is a recipe management and meal planning app",
       lang: "en",
       display_override: [
