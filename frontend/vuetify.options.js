@@ -20,18 +20,18 @@ export default {
     // This config doesn't do anything.
     themes: {
       dark: {
-        primary: "#EEDDB2",
-        accent: "#b7441c",
-        secondary: "#893315",
+        primary: "#E58325",
+        accent: "#007A99",
+        secondary: "#973542",
         success: "#43A047",
         info: "#1976d2",
         warning: "#FF6D00",
         error: "#EF5350",
       },
       light: {
-        primary: "#EEDDB2",
-        accent: "#b7441c",
-        secondary: "#893315",
+        primary: "#E58325",
+        accent: "#007A99",
+        secondary: "#973542",
         success: "#43A047",
         info: "#1976d2",
         warning: "#FF6D00",

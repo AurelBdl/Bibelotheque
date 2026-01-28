@@ -1,17 +1,17 @@
 [data-md-color-scheme="mealie"] {
-  --md-primary-fg-color: #EEDDB2;
-  --md-primary-fg-color--light: #EEDDB2;
-  --md-accent-fg-color: #EEDDB2;
+  --md-primary-fg-color: #e58325;
+  --md-primary-fg-color--light: #e58325;
+  --md-accent-fg-color: #e58325;
   --md-custom-h2-color: #333;
-  --md-accent-fg-color--light: #EEDDB2;
+  --md-accent-fg-color--light: #e58325;
   --md-default-accent-bg-color: #f7fafc;
 }
 
 [data-md-color-scheme="slate"] {
-  --md-primary-fg-color: #EEDDB2;
-  --md-primary-fg-color--dark: #EEDDB2;
-  --md-accent-fg-color: #EEDDB2;
-  --md-accent-fg-color--dark: #EEDDB2;
+  --md-primary-fg-color: #e58325;
+  --md-primary-fg-color--dark: #e58325;
+  --md-accent-fg-color: #e58325;
+  --md-accent-fg-color--dark: #e58325;
   --md-custom-h2-color: rgb(167, 167, 167);
   --md-default-bg-color: #1a1b1b;
   --md-default-accent-bg-color: #1f1e1e;
@@ -45,7 +45,7 @@ a[target="_blank"]:not([class*="md-"]):after {
 }
 
 .md-typeset table:not([class]) th {
-  background-color: #EEDDB2;
+  background-color: #e58325;
 }
 
 th {
