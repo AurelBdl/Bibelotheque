@@ -236,7 +236,7 @@ export default defineNuxtConfig({
       scope: "/",
       display: "standalone",
       background_color: "#FFFFFF",
-      theme_color: process.env.THEME_LIGHT_PRIMARY || "#E58325",
+      theme_color: process.env.THEME_LIGHT_PRIMARY || "#EEDDB2",
       description: "La Bibelothèque is a recipe management and meal planning app",
       lang: "en",
       display_override: [
