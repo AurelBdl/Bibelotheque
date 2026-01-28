@@ -49,7 +49,7 @@
         dark
       >
         <v-toolbar-title class="text-h4 text-center">
-          Mealie
+          La Bibelothèque
         </v-toolbar-title>
       </v-toolbar>
       <AppLogo :size="100" />
@@ -172,7 +172,7 @@
         </v-btn>
       </v-card-actions>
 
-      <v-card-text class="d-flex justify-center flex-column flex-sm-row">
+      <!-- <v-card-text class="d-flex justify-center flex-column flex-sm-row">
         <div
           v-for="link in [
             {
@@ -205,7 +205,7 @@
             {{ link.text }}
           </v-btn>
         </div>
-      </v-card-text>
+      </v-card-text> -->
     </v-card>
   </v-container>
 </template>
