@@ -13,7 +13,8 @@
         icon
         color="white"
       >
-        <v-icon size="40"> {{ $globals.icons.primary }} </v-icon>
+        <!-- <v-icon size="40"> {{ $globals.icons.primary }} </v-icon> -->
+        <AppLogo :size="40" />
       </v-btn>
     </router-link>
 

@@ -9,7 +9,7 @@
       <slot>
         <svg
           class="icon-white"
-          viewBox="0 0 24 24"
+          viewBox="0 0 236 276"
           :style="{ width: size + 'px', height: size + 'px' }"
         >
           <path

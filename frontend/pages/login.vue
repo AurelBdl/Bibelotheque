@@ -52,7 +52,7 @@
           La Bibelothèque
         </v-toolbar-title>
       </v-toolbar>
-      <AppLogo :size="100" />
+      <AppLogo :size="60" />
       <v-card-title class="text-h5 justify-center pb-3">
         {{ $t('user.sign-in') }}
       </v-card-title>
