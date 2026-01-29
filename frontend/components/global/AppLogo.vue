@@ -22,8 +22,7 @@
 </template>
 
 <script setup lang="ts">
-withDefaults(defineProps<{ size?: number }>(), { size: 75 });
-withDefaults(defineProps<{ fromLogin?: boolean }>(), { fromLogin: false });
+withDefaults(defineProps<{ size?: number, fromLogin?: boolean }>(), { size: 75, fromLogin: false });
 </script>
 
 <style scoped>
