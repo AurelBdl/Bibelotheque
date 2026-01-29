@@ -1,5 +1,5 @@
 <template>
-  <div class="text-subtitle-1 dense-markdown ingredient-item">
+  <div class="text-subtitle-1 dense-markdown ingredient-item" :style="check ? 'text-decoration: line-through' : ''">
     <SafeMarkdown
       v-if="parsedIng.quantity"
       class="d-inline"
@@ -39,6 +39,7 @@ import { useParsedIngredientText } from "~/composables/recipes";
 interface Props {
   ingredient: RecipeIngredient;
   scale?: number;
+  checked: boolean;
 }
 const props = withDefaults(defineProps<Props>(), {
   scale: 1,

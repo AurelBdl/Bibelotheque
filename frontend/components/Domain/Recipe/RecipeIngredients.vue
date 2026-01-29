@@ -44,6 +44,7 @@
             <RecipeIngredientListItem
               :ingredient="ingredient"
               :scale="scale"
+              :checked="checked[index]"
             />
           </v-list-item-title>
         </v-list-item>
