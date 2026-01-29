@@ -4,7 +4,7 @@
     <v-avatar
       :class="['pa-2', 'icon-avatar']"
       color="primary"
-      :size="size+40"
+      :size="size+(fromLogin ? 40 : 0)"
     >
       <slot>
         <svg
@@ -23,6 +23,7 @@
 
 <script setup lang="ts">
 withDefaults(defineProps<{ size?: number }>(), { size: 75 });
+withDefaults(defineProps<{ fromLogin?: boolean }>(), { fromLogin: false });
 </script>
 
 <style scoped>
