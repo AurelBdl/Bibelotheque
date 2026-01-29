@@ -4,7 +4,7 @@
     <v-avatar
       :class="['pa-2', 'icon-avatar']"
       color="primary"
-      :size="size"
+      :size="size+40"
     >
       <slot>
         <svg
