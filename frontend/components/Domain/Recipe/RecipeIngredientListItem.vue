@@ -1,5 +1,5 @@
 <template>
-  <div class="text-subtitle-1 dense-markdown ingredient-item" :style="checked ? 'text-decoration: line-through' : ''">
+  <div class="text-subtitle-1 dense-markdown ingredient-item" :style="checked ? 'text-decoration-line: line-through; opacity: 0.5' : ''">
     <SafeMarkdown
       v-if="parsedIng.quantity"
       class="d-inline"
